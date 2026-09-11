@@ -28,7 +28,7 @@ export function Nav() {
             </div>
 
                 <div className="flex justify-between gap-4 items-center">
-                <button className=" ursor-pointer ">Sign In</button>
+                <button className=" cursor-pointer ">Sign In</button>
                 <button className=" btn btn-secondary   px-5 rounded-full ">Sign Up</button>
 
                 </div>
