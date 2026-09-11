@@ -2,9 +2,9 @@ import footerLogo from "../../assets/logo-text.png";
 export function Footer() {
   return (
     <>
-      <div className="border-y py-20   m-0! border-gray-200 ">
-        <div className="flex justify-between  container px-20">
-          <div className="w-120 space-y-5 mb-10">
+      <div className="border-y    m-0! border-gray-200 ">
+        <div className="flex justify-between  container px-20 py-10">
+          <div className="w-120 space-y-5 ">
             <img src={footerLogo} alt="" />
             <p className="text-gray-500">
               Curated tools, technologies, and resources for developers building
@@ -65,7 +65,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-between items-center px-20 border-t border-gray-200 pt-10">
+        <div className="flex justify-between items-center px-20 border-t border-gray-200 py-8">
 
         <div>
             <p className="text-gray-400 text-sm">© 2026 Dev Stack. All rights reserved.</p>
