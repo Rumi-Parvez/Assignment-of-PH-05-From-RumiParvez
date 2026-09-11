@@ -2,7 +2,7 @@ import footerLogo from "../../assets/logo-text.png";
 export function Footer() {
   return (
     <>
-      <div className="border-y pt-20 pb-10   m-0! border-gray-200 ">
+      <div className="border-y py-20   m-0! border-gray-200 ">
         <div className="flex justify-between  container px-20">
           <div className="w-120 space-y-5 mb-10">
             <img src={footerLogo} alt="" />
