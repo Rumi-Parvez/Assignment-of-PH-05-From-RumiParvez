@@ -5,8 +5,8 @@ export function Nav() {
     return (
         <>
         
-        <div className=" bg-white sticky top-0 ">
-            <div className="flex  items-center  container py-3  m-auto justify-between ">
+        <div className=" bg-white sticky top-0 border-gray-200 border-b">
+            <div className="flex  items-center  container py-3  m-auto justify-between px-20">
                 
                 <div className=" ">
                     <img src={logo} alt="logo-text.png" />

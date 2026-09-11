@@ -2,9 +2,9 @@ import footerLogo from "../../assets/logo-text.png";
 export function Footer() {
   return (
     <>
-      <div className="border-y-2 py-5 ">
-        <div className="flex justify-between  container ">
-          <div className="w-120 space-y-5">
+      <div className="border-y pt-20 pb-10   m-0! border-gray-200 ">
+        <div className="flex justify-between  container px-20">
+          <div className="w-120 space-y-5 mb-10">
             <img src={footerLogo} alt="" />
             <p className="text-gray-500">
               Curated tools, technologies, and resources for developers building
@@ -12,7 +12,7 @@ export function Footer() {
             </p>
             <div>
                 
-                <ul className="flex items-center gap-4 font-bold text-sm">
+                <ul className="flex items-center gap-4 font-semibold text-sm">
                     <li><a href="">GitHub</a></li>
                     <li><a href="">Twitter</a></li>
                     <li><a href="">LinkedIn</a></li>
@@ -22,7 +22,7 @@ export function Footer() {
 
           <div>
             <h1 className="font-bold mb-5 text-sm">PRODUCT</h1>
-            <ul className="flex flex-col gap-2 text-gray-500">
+            <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
                 <a href="">Home</a>
               </li>
@@ -37,7 +37,7 @@ export function Footer() {
           </div>
           <div>
             <h1 className="font-bold mb-5 text-sm">COMPANY</h1>
-            <ul className="flex flex-col gap-2 text-gray-500 ">
+            <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
                 <a href="">About</a>
               </li>
@@ -52,7 +52,7 @@ export function Footer() {
           </div>
           <div>
             <h1 className="font-bold mb-5 text-sm" >LEGAL</h1>
-            <ul className="flex flex-col gap-2 text-gray-500">
+            <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
                 <a href="">Privacy Policy</a>
               </li>
@@ -65,7 +65,20 @@ export function Footer() {
           </div>
         </div>
 
-        <div></div>
+        <div className="flex justify-between items-center px-20 border-t border-gray-200 pt-10">
+
+        <div>
+            <p className="text-gray-400 text-sm">© 2026 Dev Stack. All rights reserved.</p>
+        </div>
+
+        <div>
+            <ul className="flex gap-10 items-center text-gray-400 text-sm">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+            </ul>
+        </div>
+
+        </div>
       </div>
     </>
   );
