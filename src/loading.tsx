@@ -2,7 +2,7 @@ export function Loading() {
     
     return (
         <>
-        <div className='bg-pink-50 w-full h-15 border-b border-pink-200'></div>
+        <div className='container m-auto  bg-pink-50 w-full h-15 border-b border-pink-200'></div>
         <div className='container m-auto w-full bg-pink-200 h-130 mt-5 rounded-xl  '>
 
          
@@ -46,10 +46,10 @@ export function Loading() {
           </div>
         </div>
 
-        <div className='w-full h-60 bg-pink-100 mt-20 border-t border-pink-200'>
+        <div className='container m-auto w-full h-60 bg-pink-100 mt-20 border-t border-pink-200'>
 
         </div>
-        <div className='w-full h-10 bg-pink-200  border-t border-pink-300'>
+        <div className='container m-auto w-full h-10 bg-pink-200  border-t border-pink-300'>
 
         </div>
 
