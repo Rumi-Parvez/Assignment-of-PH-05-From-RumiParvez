@@ -10,7 +10,7 @@ export default function Tech({ tech }: TechProps) {
   return (
     <>
       <div>
-        <div className="p-8 pt-10 border border-gray-300 rounded-2xl  space-y-3">
+        <div className="p-8 pt-10 border border-gray-300 rounded-2xl  space-y-2">
           <div className="flex justify-between items-center mb-8">
             <img
               className="h-10 w-10"
@@ -21,11 +21,12 @@ export default function Tech({ tech }: TechProps) {
               {tech.badge}
             </h1>
           </div>
-          <h1 className="text-2xl font-bold">{tech.name}</h1>
-          <p className="text-sm ">{tech.description}</p>
-          <div className="flex justify-between items-center text-xs py-2">
-            <h1>{tech.category}</h1>
-            <h1>{tech.difficulty}</h1>
+          <h1 className="text-2xl font-bold my-4">{tech.name}</h1>
+          <p className="text-sm text-gray-500 ">{tech.description}</p>
+            
+          <div className="flex justify-between items-center text-xs py-2 border-t mt-5 border-gray-100 ">
+            <h1 className="bg-gray-100 px-4 py-1 rounded-sm text-gray-600">{tech.category}</h1>
+            <h1 className="text-gray-500">{tech.difficulty}</h1>
             <h1 className=" flex items-center gap-2 font-semibold">
               <FaStar className="text-yellow-500" />
               {tech.rating}
