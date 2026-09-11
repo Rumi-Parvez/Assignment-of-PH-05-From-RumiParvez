@@ -2,8 +2,8 @@ import footerLogo from "../../assets/logo-text.png";
 export function Footer() {
   return (
     <>
-      <div className="border-y    m-0! border-gray-200 ">
-        <div className="flex justify-between  container px-20 py-10">
+      <div className=" px-20    border-y  border-gray-200 ">
+        <div className="flex justify-between py-10 container m-auto ">
           <div className="w-120 space-y-5 ">
             <img src={footerLogo} alt="" />
             <p className="text-gray-500">
@@ -20,7 +20,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="">
             <h1 className="font-bold mb-5 text-sm">PRODUCT</h1>
             <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
@@ -35,7 +35,7 @@ export function Footer() {
               
             </ul>
           </div>
-          <div>
+          <div >
             <h1 className="font-bold mb-5 text-sm">COMPANY</h1>
             <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
@@ -65,14 +65,14 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-between items-center px-20 border-t border-gray-200 py-8">
+        <div className="flex justify-between items-center  border-t border-gray-100 py-8">
 
         <div>
             <p className="text-gray-400 text-sm">© 2026 Dev Stack. All rights reserved.</p>
         </div>
 
         <div>
-            <ul className="flex gap-10 items-center text-gray-400 text-sm">
+            <ul className="flex gap-5 items-center text-gray-400 text-sm">
                 <li><a href="">Privacy</a></li>
                 <li><a href="">Terms</a></li>
             </ul>

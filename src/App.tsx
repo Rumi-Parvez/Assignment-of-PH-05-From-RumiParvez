@@ -17,7 +17,8 @@ const getDataPermisions = async () : Promise<IDataType[]>=> {
 function App() {
   return (
     <>
-    <Nav></Nav>
+    <div className='container m-auto'>
+      <Nav></Nav>
     <Hero></Hero>
     
     <div>
@@ -28,6 +29,7 @@ function App() {
       </Suspense>
 
       <Footer></Footer>
+    </div>
     </div>
     
     </>

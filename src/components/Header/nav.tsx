@@ -13,7 +13,7 @@ export function Nav() {
                 </div>
                
             <div>
-                <ul className="flex justify-between items-center gap-8 ">
+                <ul className="flex justify-between items-center gap-8 text-gray-700">
                     <li><a href="">Home</a></li>
                     <li><a href="">Technologies</a></li>
                     <li><a href="">Projects</a></li>

@@ -11,7 +11,7 @@ export function Hero() {
               <span className="bg-linear-to-r from-orange-500 via-pink-600 to-violet-700 bg-clip-text text-transparent">Development Stack</span>
             </h1>
 
-            <p className="pr-10">
+            <p className="pr-10 text-gray-700">
               Explore frontend, backend, database, and tooling options, compare
               them side by side, and put together the stack that fits your next
               project.
