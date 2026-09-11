@@ -5,6 +5,7 @@ import type { IDataType } from './type';
 import { Nav } from './components/Header/nav';
 import { Hero } from './components/Hero Section/hero';
 import { Footer } from './components/Footer Section/footer';
+import { Loading } from './loading';
 
 
 const getDataPermisions = async () : Promise<IDataType[]>=> {
@@ -17,18 +18,21 @@ const getDataPermisions = async () : Promise<IDataType[]>=> {
 function App() {
   return (
     <>
-    <div className='container m-auto '>
-      <Nav></Nav>
-    <Hero></Hero>
+    <div >
+      
     
     <div>
-      <Suspense fallback={<h1>Loading......</h1>} >
+      <Suspense fallback={<Loading></Loading>} >
+        <div className='container m-auto '>
+          <Nav></Nav>
+        <Hero></Hero>
 
-      <Technologies getDataPermisions={getDataPermisions()}></Technologies>
-
+        <Technologies getDataPermisions={getDataPermisions()}></Technologies>
+        <Footer></Footer>
+        </div>
       </Suspense>
 
-      <Footer></Footer>
+      
     </div>
     </div>
     

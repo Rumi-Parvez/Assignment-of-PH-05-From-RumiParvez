@@ -62,9 +62,9 @@ export default function Technologies({ getDataPermisions }: TechnologiesProps) {
 
             <div >
               {addedTech.length > 0 ? (
-                <div className={addedTech.length > 6 ? "sticky top-19" : "sticky top-19"}>
+                <div className="sticky top-19">
                   <div>
-                    <div className="w-[25%] sticky top-19">
+                    <div className="w-[25%] ">
                       <div className="w-90 border   border-gray-300 rounded-2xl p-10   ml-5">
                         <h1 className="text-2xl font-bold mb-1">Your Stack</h1>
                         <p className="mb-3 text-sm text-gray-400">
