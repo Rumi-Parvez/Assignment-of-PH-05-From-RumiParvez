@@ -17,8 +17,8 @@ export function Hero() {
               project.
             </p>
             <div className="gap-8 flex">
-                <button className="btn btn-active btn-warning rounded-lg bg-linear-to-r from-orange-500 to-pink-500 px-4 py-3 font-semibold text-white ">Explore Technologies</button>
-                <button className="btn rounded-lg px-15 font-medium">Learn More</button>
+                <button className="btn  rounded-lg bg-linear-to-r from-orange-500 to-pink-500 px-4 py-3 font-semibold text-white ">Explore Technologies</button>
+                <button className="btn rounded-lg px-15 font-medium bg-white">Learn More</button>
             </div>
 
           </div>

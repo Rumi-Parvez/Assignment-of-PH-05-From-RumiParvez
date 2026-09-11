@@ -17,7 +17,7 @@ const getDataPermisions = async () : Promise<IDataType[]>=> {
 function App() {
   return (
     <>
-    <div className='container m-auto'>
+    <div className='container m-auto '>
       <Nav></Nav>
     <Hero></Hero>
     
