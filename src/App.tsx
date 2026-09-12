@@ -9,7 +9,7 @@ import { Loading } from './loading';
 
 
 const getDataPermisions = async () : Promise<IDataType[]>=> {
-  const res = await fetch('../public/technologiesData.json')
+  const res = await fetch('/technologiesData.json')
   const data = await res.json();
   return data;
 }
