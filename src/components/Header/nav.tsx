@@ -6,15 +6,15 @@ export function Nav() {
     return (
         <>
         
-        <div className=" flex gap-2 justify-between md:bg-white sticky z-10 top-0 border-gray-200 border-b">
-            <div className=" flex  items-center  container m-auto justify-between py-3   px-20">
+        <div className="w-full flex gap-2 justify-between bg-white md:bg-white sticky z-10 top-0 border-gray-200 border-b">
+            <div className="flex items-center container m-auto justify-between py-3 px-4 md:px-20">
                 <div className="   md:hidden">
                     <RxHamburgerMenu className="text-2xl "  />
                 </div>
 
                 
                 <div className="  ">
-                    <img className="w-full" src={logo} alt="logo-text.png" />
+                    <img className="w-full max-w-[124px] md:max-w-none" src={logo} alt="logo-text.png" />
                 </div>
                
             <div>

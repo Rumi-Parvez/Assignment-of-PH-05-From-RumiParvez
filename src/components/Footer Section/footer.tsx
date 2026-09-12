@@ -2,9 +2,9 @@ import footerLogo from "../../assets/logo-text.png";
 export function Footer() {
   return (
     <>
-      <div className=" px-20    border-y  border-gray-200 ">
-        <div className="flex justify-between py-10 container m-auto ">
-          <div className="w-120 space-y-5 ">
+      <div className="px-4 md:px-20 border-y border-gray-200">
+        <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-0 py-8 md:py-10 container m-auto">
+          <div className="w-full md:w-120 space-y-5">
             <img src={footerLogo} alt="" />
             <p className="text-gray-500">
               Curated tools, technologies, and resources for developers building
@@ -20,7 +20,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="">
+          <div className="w-full md:w-auto">
             <h1 className="font-bold mb-5 text-sm">PRODUCT</h1>
             <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
@@ -35,7 +35,7 @@ export function Footer() {
               
             </ul>
           </div>
-          <div >
+          <div className="w-full md:w-auto">
             <h1 className="font-bold mb-5 text-sm">COMPANY</h1>
             <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
@@ -50,7 +50,7 @@ export function Footer() {
               
             </ul>
           </div>
-          <div>
+          <div className="w-full md:w-auto">
             <h1 className="font-bold mb-5 text-sm" >LEGAL</h1>
             <ul className="flex flex-col gap-2 text-gray-500 text-sm">
               <li>
@@ -65,7 +65,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-between items-center  border-t border-gray-100 py-8">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 border-t border-gray-100 py-5 md:py-8">
 
         <div>
             <p className="text-gray-400 text-sm">© 2026 Dev Stack. All rights reserved.</p>
