@@ -21,7 +21,7 @@ export function Hero() {
               <button className="btn  rounded-lg bg-linear-to-r from-orange-500 to-pink-500 px-2
               text-xs md:px-4 py-3 
                   md:font-semibold  text-white ">Explore Technologies</button>
-              <button className="btn  rounded-lg px-2 md:px-15 text-xs md:text-base font-medium bg-white">Learn More</button>
+              <button className="btn  rounded-lg px-4 md:px-15  md:text-sm font-medium bg-white">Learn More</button>
             </div>
 
           </div>

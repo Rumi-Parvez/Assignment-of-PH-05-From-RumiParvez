@@ -23,7 +23,7 @@ function App() {
     
     <div>
       <Suspense fallback={<Loading></Loading>} >
-        <div className='m-0 md:container m-auto '>
+        <div className='w-full md:container md:m-auto '>
           <Nav></Nav>
         <Hero></Hero>
 

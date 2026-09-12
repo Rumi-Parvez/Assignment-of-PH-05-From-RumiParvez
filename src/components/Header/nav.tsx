@@ -18,7 +18,7 @@ export function Nav() {
                 </div>
                
             <div>
-                <ul className=" hidden md:flex justify-between items-center gap-8 text-gray-700 ">
+                <ul className=" hidden md:flex md:justify-between md:items-center md:gap-8 md:text-gray-700 ">
                     <li><a className="hover:text-pink-600 " href="">Home</a></li>
                     <li><a className="hover:text-pink-600 " href="">Technologies</a></li>
                     <li><a className="hover:text-pink-600 " href="">Projects</a></li>
