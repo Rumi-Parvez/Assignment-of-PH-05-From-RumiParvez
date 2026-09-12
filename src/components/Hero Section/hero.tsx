@@ -17,7 +17,7 @@ export function Hero() {
               them side by side, and put together the stack that fits your next
               project.
             </p>
-            <div className="flex  items-center  pl-10 md:p-0 md:m-0  md:items-start   gap-2 md:gap-8  w-[90%] md:w-[68%]">
+            <div className="flex  items-center  pl-5 md:p-0 md:m-0  md:items-start   gap-2 md:gap-8  w-[90%] md:w-[68%]">
               <button className="btn  rounded-lg bg-linear-to-r from-orange-500 to-pink-500 px-2
               text-xs md:px-4 py-3 
                   md:font-semibold  text-white ">Explore Technologies</button>
