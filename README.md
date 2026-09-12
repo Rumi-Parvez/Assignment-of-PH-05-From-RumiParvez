@@ -10,6 +10,11 @@ Description : My name is Rumi Parvez , i am student at Programming hero . i am s
 
 Description : This is an technology exploral site the had created by the Rumi Parvez and used React , tailwindcss, typescript, daisyUI , Json, react tostyfy,html,css,javascript,vite,etc....technologys. we had follow a Responsive ui for create it and also now it's an 2 device responsive 1.desktop, 2.mobile device .
 
+## Site Links : 
+1. Netlify : https://dev-stack-rumiparvez-a5-ph-b-14.netlify.app/
+2. Vercel : https://dev-stack-kappa.vercel.app/
+3. MY own Host : https://dev-stack.openyhool.com/
+
 ## The key functionalitis on this site :
 
 header stiky, technology details card , an function that can save your stack in sider an div on , each selection site will notify as like tostify, also in single deletion and remove all there will get an tostify toast. also thsi site know you whats you had added in your stack so that's you can get warning message for readding time the same card.
